@@ -3,7 +3,7 @@
 
 
 Capas de la aplicación.
-#1. Presentación
+1. Presentación
 
 Index.cshtml
 bootstrap.css
