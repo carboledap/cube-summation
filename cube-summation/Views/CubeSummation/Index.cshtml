@@ -1,0 +1,42 @@
+﻿@model cube_summation.Models.InformacionProceso
+
+@{
+    Layout = null;
+}
+
+@using (Html.BeginForm("ProcesoCubeSummation", "CubeSummation", FormMethod.Post))
+{
+
+    @Html.AntiForgeryToken()
+
+    <!DOCTYPE html>
+    <html lang="es-co">
+    <head>
+        <title>Prueba texnica .NET</title>
+        <link href="~/Content/bootstrap.css" rel="stylesheet" />
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/Content/Site.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <h2>XpertGroup - hackerrank</h2>
+        <p>Cube Summation</p>
+
+        <div class="row">
+            <div class="col-sm-3 col-md-6 columna">
+                <label for="comment">Entrada:</label>
+                @Html.TextAreaFor(model => model.DatosEntrada, new { @required = "true", @rows = "10", @class = "form-control" })
+            </div>
+            <div class="col-sm-3 col-md-6 columna">
+                <label for="comment">Salida:</label>
+                @Html.TextAreaFor(model => model.DatosSalida, new { @disabled = "true", @rows = "10", @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-primary" value="Validar" />
+            <br />
+            <p> @ViewData["Mensaje"]</p>
+        </div>
+    </body>
+</html>
+}

@@ -1,0 +1,13 @@
+﻿.row {
+    height: 280px;
+}
+
+.columna {
+    margin-left: 100px;
+    width: 530px;
+    height: 222px;
+}
+
+h2, p, .btn{
+    margin-left: 100px;
+}
