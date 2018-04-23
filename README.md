@@ -7,7 +7,7 @@ Capas de la aplicación.
 
 ¿En qué consiste el principio de responsabilidad única? ¿Cuál es su propósito?
 
-Consiste en que cada clase, modulo o función tengan una unica razón, tengan una sola labor, un solo fin, y la meta final de este principio es  ayudarnos con la cohesion de nuestro código, que verdaderamente esten unidas las funcionalidades que tengan relación entre ellas y lograr mantener un bajo acoplamiento para que el códiugo sea facilmente mantenible, se pueda extender y tambien sea facil realizarle pruebas.
+Consiste en que cada clase, modulo o función tengan una unica razón, tengan una sola labor, un solo fin, y la meta final de este principio es  ayudarnos con la cohesion de nuestro código, que verdaderamente esten unidas las funcionalidades que tengan relación entre ellas y lograr mantener un bajo acoplamiento para que el código sea facilmente mantenible, se pueda extender y tambien sea facil realizarle pruebas.
 
 ¿Qué características tiene según tu opinión “buen” código o código limpio?
 
